@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "The Blog"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Angad Gill"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
