@@ -10,12 +10,12 @@ locale                   : "en-US"
 title                    : "The Blog"
 title_separator          : "-"
 name                     : "Angad Gill"
-description              : "An amazing website."
+description              : "Rambling, mostly. Some useful information, hopefully."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "facebook", "google-plus", custom"
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Angad Gill"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Machine Learning. Python. Ham Radio."
+  location         : "Santa Barbara, California"
   email            :
   uri              :
   bitbucket        :
@@ -73,12 +73,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : angadgill
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : angadgill
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -204,3 +204,29 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
