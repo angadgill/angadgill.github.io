@@ -2,7 +2,7 @@
 title: "Convolutional Neural Networks: Talk @ UCSB"
 created: 2016-05-15
 ---
-I gave talk at the Data Science club at UC Santa Barbara on Convolutional Neural Networks last week. I had hoped to teach a thing or two I learned during the Winter quarter (more on this project in a future post). 
+I gave a talk at the Data Science club at UC Santa Barbara on Convolutional Neural Networks last week. I had hoped to teach a thing or two I learned during the Winter quarter (more on this project in a future post). 
 
 Here is the presentation I used. What better way to inaugurate my blog! 
 
